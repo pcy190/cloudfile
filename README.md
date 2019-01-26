@@ -41,6 +41,7 @@ https://www.npmjs.com/package/cloudfile
 - 网络传输流进行优化。
 - 针对高并发进行优化。
 - 服务器端支持压缩传输。
+- 跨平台，支持Windows，MacOS和Linux环境。
 
 # 应用场景
 - 局域网下的文件共享传输。
