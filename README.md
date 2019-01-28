@@ -51,3 +51,20 @@ https://www.npmjs.com/package/cloudfile
 - 断点断续传输
 - 登录认证功能
 - 服务器缓存 (没有那么大的业务量好像并不需要)
+
+# 想要在此基础上开发？
+```
+git clone https://github.com/pcy190/cloudfile
+cd cloudfile
+npm install
+
+//前端渲染文件 (后期将使用同一的前端接口)
+src/template/dir.tpl
+
+//核心逻辑文件
+src/helper/route.js
+
+//想要更友好的404页面？
+写好前端后，在route.js部署即可
+```
+
